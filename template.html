@@ -13,14 +13,14 @@
         <main id="main">
             <div id="exercise">
                 <article>
-                    <input type="text" />
-                    <button type="button">ADD</button>
+                    <input type="text" id="nameInput"/>
+                    <button type="button" onclick="addName()">ADD</button>
                 </article>
 
                 <div>
                     <h1>SoftUni Database</h1>
-                    <ol type="A">
-                        <li></li>
+                    <ol type="A" id="nameList">
+                        <li data-letter="A"></li>
                         <li></li>
                         <li></li>
                         <li></li>
@@ -52,8 +52,9 @@
         </main>
 
     </div>
-    <script>
-        solve();
+
+    <script src="script.js">
+    
     </script>
 </body>
 
